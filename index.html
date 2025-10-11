@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Seahorse Emoji — U+1F99E</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Use a clean system font stack (Cal Sans / Noto Sans fallback) -->
+  <style>
+    /* ...existing content... */
+    @font-face {
+      font-family: "CalSansLike";
+      src: local("Cal Sans"), local("Inter"), local("Noto Sans"), local("system-ui");
+    }
+    body { font-family: CalSansLike, system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", "Helvetica Neue", Arial; }
+    /* ...existing content... */
+  </style>
+</head>
+<body>
+  <main class="container">
+    <h1>Is there a seahorse emoji?</h1>
+
+    <section class="card">
+      <div class="emoji-row">
+        <div class="emoji-large" id="emojiDisplay">🦄</div>
+        <div class="meta">
+          <p class="result" id="supportText">Checking support…</p>
+          <p class="codepoint">Unicode: U+1F99E — JavaScript: "\uD83E\uDD9E"</p>
+          <div class="actions">
+            <button id="copyEmoji">Copy emoji</button>
+            <button id="copyCode">Copy codepoint</button>
+          </div>
+        </div>
+      </div>
+      <p class="note">
+        The seahorse emoji exists (U+1F99E). How it looks depends on your platform (Apple, Google, Microsoft, etc.). Below is a fallback PNG if your system can't render it.
+      </p>
+      <div class="fallback">
+        <img id="fallbackImg" src="seahorse.png" alt="Seahorse illustration (fallback)" />
+        <p class="small">Fallback image shown when emoji rendering isn't supported.</p>
+      </div>
+    </section>
+
+    <section class="about card">
+      <h2>Details</h2>
+      <ul>
+        <li>Name: SEAHORSE</li>
+        <li>Unicode: U+1F99E</li>
+        <li>Introduced in Unicode 10.0 (2017)</li>
+      </ul>
+    </section>
+  </main>
+
+  <script type="module" src="script.js"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"4c6229722a6346bc8eb5cb0e5eae5d41","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
+
